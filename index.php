@@ -12,9 +12,23 @@
 </head>
 <body>
 
+
+
    <section class="lista-container">
+    <?php
+            include './conexao/conexao.php';
+
+            $sql= "SELECT * FROM `agenda` ORDER BY nome ASC";
+            $busca = mysqli_query($conexao, $sql);
+
+            while ($array= mysqli_fetch_array($busca)){
+                $id= $array['id'];
+                $nome= $array['nome'];
+                $telefone=$array['telefone'];
+
+    ?>
         <div class="contato-item">
-            <p>nome </p>
+            <p><?php echo $nome?></p>
             <div>
                 <div>
                     <button type="button">Editar</button>
@@ -22,6 +36,7 @@
                 </div>
             </div>
         </div>
+    <?php }?>
    </section>
     
       
