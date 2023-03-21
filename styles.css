@@ -4,6 +4,10 @@
     box-sizing: border-box;
  }
 
+ h1{
+    text-align: center;
+ }
+
 .lista-container{
     max-width: 600px;
     width: 100%;
