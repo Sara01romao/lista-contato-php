@@ -13,6 +13,15 @@
 <body>
 
 
+   <h1>Contatos</h1>
+   
+   <div>
+      <button type="button">Adicionar</button>
+      <form action="">
+         <input type="search" name="" id="">
+         <button>Buscar</button>
+      </form>
+   </div>
 
    <section class="lista-container">
     <?php
