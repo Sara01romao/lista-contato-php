@@ -19,8 +19,33 @@
     max-width: 600px;
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0px;
+    padding: 10px;
 }
 
 .contato-item{
-    border:1px solid rgb(0, 255, 106);
+    
+    display: flex;
+    align-items: center;
+    gap: 0px 18px;
+    background: #EEEEEE;
+    border-radius: 50px;
+    padding: 5px 27px;
+    cursor: pointer;
+}
+
+.contato-item:hover{
+    background: #d8d8d8;
+}
+
+.img-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #bdbdbd;
 }
