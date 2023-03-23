@@ -15,6 +15,33 @@
     text-align: center;
  }
 
+
+.header-options{
+    border: 1px solid red;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+.header-options form div{
+  border: 1px solid #EEEEEE;
+  display: flex;
+  align-items: center;
+  gap: 0px 18px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.header-options form div input{
+    width: 100%;
+  border-radius: 50px;
+  padding: 5px 27px;
+  cursor: pointer;
+}
+
+
 .lista-container{
     max-width: 600px;
     width: 100%;
