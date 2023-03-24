@@ -10,18 +10,34 @@
     font-family: 'Roboto', sans-serif;
  }
 
+ a{
+    text-decoration: none;
+
+    
+ }
+
 
  h1{
     text-align: center;
  }
 
 
+
 .header-options{
     border: 1px solid red;
     max-width: 600px;
     width: 100%;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 10px;
+}
+
+.header-options a{
+    color: #407BFF;
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+    align-items: center;
+
 }
 
 
