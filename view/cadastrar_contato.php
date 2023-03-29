@@ -9,16 +9,17 @@
 </head>
 <body>
 
-<section class="cadastrar-container">
-<form action="">
+<section class="cadastrar-container"  >
+<form action="../controller/add_contato.php" method="post">
        <label for="">Nome</label>
-       <input type="text">
+       <input type="text" name="nome">
 
        <label for="">Telefone</label>
-       <input type="text">
+       <input type="text" name="telefone">
 
-       <label for="">Email</label>
-       <input type="text">
+       
+
+       <button >Enviar</button>
    </form>
 </section>
 
